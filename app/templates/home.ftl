@@ -4,7 +4,7 @@
 </head>
 <body>
   <h1>
-    Welcome ${yellow}
+    Welcome ${page.name}, yellow is ${yellow}
   </h1>
 </body>
 </html> 

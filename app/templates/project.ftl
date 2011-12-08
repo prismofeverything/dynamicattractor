@@ -4,7 +4,7 @@
 </head>
 <body>
   <h1>
-    Welcome ${template}
+    Welcome ${name}, ${bbbbb}
   </h1>
 </body>
 </html> 

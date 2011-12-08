@@ -2,8 +2,7 @@
   (:use caribou.app.controller))
 
 (controller :project
-  :index (fn [params] params)
-  :detail (fn [params] params))
-
+  :index (fn [request] (assoc request :yellow 55555))
+  :detail (fn [request] (assoc request :bbbbb "yoyoyoyoyo")))
 
 
